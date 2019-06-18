@@ -40,6 +40,22 @@
             </intent-filter>
         </service>
 
+
+        <service android:name=".RitzBlueSlpt" />
+        <service
+            android:name=".RitzBlue"
+            android:label="Ritz Blue"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <meta-data android:name="android.service.wallpaper" android:resource="@xml/custom_watch_face" />
+            <meta-data android:name="com.google.android.wearable.watchface.preview" android:resource="@drawable/preview" />
+            <meta-data android:name="com.google.android.wearable.watchface.preview_circular" android:resource="@drawable/preview" />
+            <meta-data android:name="com.huami.watch.watchface.hasslpt" android:value="false" />
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+                <category android:name="com.google.android.wearable.watchface.category.WATCH_FACE" />
+            </intent-filter>
+        </service>
+
     </application>
 
 </manifest>

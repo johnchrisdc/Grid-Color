@@ -33,4 +33,11 @@
 
     <dimen name="month_top">272px</dimen>
     <dimen name="month_top_slpt">277px</dimen>
+
+
+    <dimen name="ritz_blue_font_size">100px</dimen>
+
+    <dimen name="ritz_blue_time_top">188px</dimen>
+    <dimen name="ritz_blue_time_hour_left">46px</dimen>
+    <dimen name="ritz_blue_time_minutes_left">160px</dimen>
 </resources>
