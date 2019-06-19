@@ -15,6 +15,7 @@ import com.ingenic.iwds.slpt.view.analog.SlptAnalogMinuteView;
 import com.ingenic.iwds.slpt.view.analog.SlptAnalogSecondView;
 import com.ingenic.iwds.slpt.view.digital.SlptWeekView;
 import com.jcdc.watchpace.gridcolor.R;
+import com.jcdc.watchpace.gridcolor.RitzBlue;
 import com.jcdc.watchpace.gridcolor.resource.ResourceManager;
 import com.huami.watch.watchface.util.Util;
 import com.ingenic.iwds.slpt.view.core.SlptLinearLayout;
@@ -73,9 +74,7 @@ public class RitzBlueMainClock extends DigitalClockWidget {
         // Draw background image
         //this.background.draw(canvas);
 
-        Paint mGPaint = new Paint();
-        mGPaint.setAntiAlias(false);
-        mGPaint.setFilterBitmap(false);
+        Paint mGPaint = RitzBlue.getPaint();
 
         canvas.drawBitmap(this.background, 0f, 0f, mGPaint);
 

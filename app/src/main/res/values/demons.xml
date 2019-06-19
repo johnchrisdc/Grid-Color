@@ -38,6 +38,26 @@
     <dimen name="ritz_blue_font_size">100px</dimen>
 
     <dimen name="ritz_blue_time_top">188px</dimen>
-    <dimen name="ritz_blue_time_hour_left">46px</dimen>
+    <dimen name="ritz_blue_time_hour_left">40px</dimen>
     <dimen name="ritz_blue_time_minutes_left">160px</dimen>
+
+    <dimen name="ritz_blue_distance_font_size">15px</dimen>
+
+    <dimen name="ritz_blue_today_distance_top">210px</dimen>
+    <dimen name="ritz_blue_today_distance_left">184px</dimen>
+    <dimen name="ritz_blue_today_distance_left_slpt">192px</dimen>
+
+    <dimen name="ritz_blue_today_distance_icon_top">192px</dimen>
+    <dimen name="ritz_blue_today_distance_icon_left">160px</dimen>
+    <dimen name="ritz_blue_today_distance_icon_left_slpt">170px</dimen>
+
+
+    <dimen name="ritz_blue_total_distance_top">210px</dimen>
+    <dimen name="ritz_blue_total_distance_left">77px</dimen>
+    <dimen name="ritz_blue_total_distance_left_slpt">93px</dimen>
+
+    <dimen name="ritz_blue_total_distance_icon_top">192px</dimen>
+    <dimen name="ritz_blue_total_distance_icon_left">53px</dimen>
+    <dimen name="ritz_blue_total_distance_icon_left_slpt">69px</dimen>
+
 </resources>

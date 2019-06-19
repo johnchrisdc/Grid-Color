@@ -132,23 +132,24 @@ public class BatteryWidget extends AbstractWidget {
         power.setTextAttrForAll(
                 context.getResources().getDimension(R.dimen.battery_font_size),
                 Color.WHITE,
-                ResourceManager.getTypeFace(service.getResources(), ResourceManager.Font.FONT_FILE)
+                ResourceManager.getTypeFace(service.getResources(), ResourceManager.Font.ROBOTO)
         );
         // Position based on screen on
         power.alignX = 2;
         power.alignY = 0;
         tmp_left = 0;
 
-        // If text is centered, set rectangle
-        power.setRect(
-                (int) (2 * tmp_left + 640),
-                (int) (((float)75/100)*context.getResources().getDimension(R.dimen.battery_font_size))
-        );
+//        // If text is centered, set rectangle
+//        power.setRect(
+//                (int) (2 * tmp_left + 640),
+//                (int) (((float)75/100)*context.getResources().getDimension(R.dimen.battery_font_size))
+//        );
+//
+//        tmp_left = -320;
 
-        tmp_left = -320;
         power.setStart(
                 tmp_left,
-                (int) (context.getResources().getDimension(R.dimen.battery_percent_top)-((float)75/100)*context.getResources().getDimension(R.dimen.battery_font_size)
+                (int) (context.getResources().getDimension(R.dimen.battery_percent_top)-((float)75/60)*context.getResources().getDimension(R.dimen.battery_font_size)
                 )
         );
 

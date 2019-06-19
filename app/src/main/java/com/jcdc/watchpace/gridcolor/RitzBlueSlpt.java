@@ -8,6 +8,8 @@ import com.ingenic.iwds.slpt.view.core.SlptLayout;
 import com.ingenic.iwds.slpt.view.core.SlptViewComponent;
 import com.jcdc.watchpace.gridcolor.widget.BatteryWidget;
 import com.jcdc.watchpace.gridcolor.widget.RitzBlueMainClock;
+import com.jcdc.watchpace.gridcolor.widget.SportTodayDistanceWidget;
+import com.jcdc.watchpace.gridcolor.widget.SportTotalDistanceWidget;
 import com.jcdc.watchpace.gridcolor.widget.Widget;
 
 public class RitzBlueSlpt extends AbstractWatchFaceSlpt {
@@ -25,6 +27,9 @@ public class RitzBlueSlpt extends AbstractWatchFaceSlpt {
         this.clock = new RitzBlueMainClock(context);
 
         this.widgets.add(new BatteryWidget(context));
+        this.widgets.add(new SportTotalDistanceWidget(context));
+        this.widgets.add(new SportTodayDistanceWidget(context));
+
 
         return super.onStartCommand(intent, i, i1);
     }
